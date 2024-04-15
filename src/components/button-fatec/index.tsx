@@ -2,7 +2,7 @@ import styles from './ButtonFatec.module.css' // styles.botaoFatec
 
 interface Props {
     type: 'button' | 'submit' | 'reset'
-label: string
+    label: string
 }
 
 function ButtonFatec({type, label}: Props){

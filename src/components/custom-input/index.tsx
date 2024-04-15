@@ -1,17 +1,17 @@
 import styles from "./CustomInput.module.css"
 
 interface Props {
-  initialValue: string;
+  defaultValue: string;
   type: string;
   placeholderText: string;
 }
 
-function CustomInput ({initialValue, type,placeholderText}: Props) {
+function CustomInput ({defaultValue, type,placeholderText}: Props) {
     return (
         <input
         className={styles.customInput}
         type = {type}
-        value = {initialValue}
+        defaultValue = {defaultValue}
         placeholder = {placeholderText}
         />
     )
