@@ -12,10 +12,10 @@ function SimpleList({title, item1, item2, item3}: Props) {
         <>
             <div className={styles.rect}>
                 {title}  
-                <ul className={styles.ul}>
-                    {item1}
-                    {item2}
-                    {item3}
+                <ul>
+                    <li>{item1}</li>
+                    <li>{item2}</li>
+                    <li>{item3}</li>
                 </ul>
                 <div className={styles.separator}></div>
             </div>

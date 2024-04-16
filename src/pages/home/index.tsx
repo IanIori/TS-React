@@ -1,9 +1,10 @@
-import { Link, useNavigate } from "react-router-dom"
+import { Link } from "react-router-dom"
+import styles from './Home.module.css'
 
 function Home(){
 
     return (
-        <div>
+        <div className={styles.container}>
             <h1>Home</h1>
             <div>
                 <Link to='/about'>Go to about page</Link>

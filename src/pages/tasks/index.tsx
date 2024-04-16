@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
 import SimpleList from "../../components/simple-list";
+import styles from './Tasks.module.css'
 
 function Tasks(){
     return (
-        <div>
+        <div className={styles.container}>
             <SimpleList
             title='Ts-React project tasks'
             item1='Develop the NodeJs API'
