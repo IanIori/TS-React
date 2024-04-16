@@ -9,7 +9,6 @@ interface Props {
 function ContactForm({title}: Props) {
     return (
         <>
-            <div className={styles.center}> 
                 <div className={styles.rect}>
                 {title}
                 <div className={styles.separator}></div>
@@ -24,7 +23,6 @@ function ContactForm({title}: Props) {
 
                 <ButtonFatec type='button' label='FATEC: Send Mensage' />
                 </div>
-            </div>
         </>
     )
 }
