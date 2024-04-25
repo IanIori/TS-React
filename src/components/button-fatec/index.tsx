@@ -1,5 +1,5 @@
 //import styles from './ButtonFatec.module.css' styles.botaoFatec
-import Button from '@chakra-ui/react'
+import { Button } from "@chakra-ui/react"
 
 interface Props {
     type: 'button' | 'submit' | 'reset'

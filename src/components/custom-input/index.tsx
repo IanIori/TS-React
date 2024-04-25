@@ -6,7 +6,7 @@ interface Props {
   placeholderText: string;
 }
 
-function CustomInput ({defaultValue, type,placeholderText}: Props) {
+function CustomInput ({defaultValue, type, placeholderText}: Props) {
     return (
         <input
         className={styles.customInput}
